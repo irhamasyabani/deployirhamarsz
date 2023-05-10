@@ -67,7 +67,7 @@ if (selected == "Kalkulator Faktor Gravimetri") :
 
     if st.button ('Hitung') :
         faktor_gravimetri = Berat_Molekul_Unsur_atau_Senyawa / Berat_Molekul_Endapan
-        st.success(f'Hasil Faktor Gravimetri adalah {faktor_gravimetri}')
+        st.success(f'Hasil Faktor Gravimetri adalah {faktor_gravimetri}gram')
         
 if (selected == "Perhitungan Kadar Air Sampel") :
     st.title("Perhitungan mencari Kadar Air Sampel")
