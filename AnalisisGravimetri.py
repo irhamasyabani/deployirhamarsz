@@ -74,17 +74,17 @@ if (selected == "Kalkulator Faktor Gravimetri") :
 if (selected == "Perhitungan Kadar Air Sampel") :
     st.title("Perhitungan mencari Kadar Air Sampel")
 
-   st.write("Perhitungan Kadar Air Sampel") 
-   st.write("(massa sebelum - massa setelah) / (massa sampel * 100)")
+    st.write("Perhitungan Kadar Air Sampel") 
+    st.write("(massa sebelum - massa setelah) / (massa sampel * 100)")
 
-   massa_sebelum = st.number_input('Masukkan massa bahan sebelum dioven (g) :', format='%.4f')
-   massa_setelah = st.number_input('Masukkan massa bahan setelah dioven (g) :', format='%.4f')
-   massa_sampel = st.number_input('Masukkan massa sampel (g) :', format='%.4f')
+    massa_sebelum = st.number_input('Masukkan massa bahan sebelum dioven (g) :', format='%.4f')
+    massa_setelah = st.number_input('Masukkan massa bahan setelah dioven (g) :', format='%.4f')
+    massa_sampel = st.number_input('Masukkan massa sampel (g) :', format='%.4f')
 
-   if st.button('Hitung') :
-      kadar_air = (massa_sebelum - massa_setelah) / (massa_sampel * 100)
-      st.success(f'Hasil kadar air adalah {kadar_air}%')
-      st.balloons()
+    if st.button('Hitung') :
+        kadar_air = (massa_sebelum - massa_setelah) / (massa_sampel * 100)
+        st.success(f'Hasil kadar air adalah {kadar_air}%')
+        st.balloons()
         
             
 
