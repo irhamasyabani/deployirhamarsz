@@ -89,7 +89,7 @@ if (selected == "Perhitungan Kadar Abu Sampel") :
     st.title ("Aplikasi Menghitung Kadar Abu Sampel")
     
     st.write("Perhitungan Kadar Abu Sampel")
-    st.write("(massa sebelum - massa setelah) / (massa sampel* 100)
+    st.write("(massa sebelum - massa setelah) / (massa sampel* 100)")
 
     massa_sebelum = st.number_input('Masukkan massa bahan sebelum dibakar (g) :', format='%.4f')
     massa_setelah = st.number_input('Masukkan massa abu setelah dibakar (g) :', format='%.4f')
