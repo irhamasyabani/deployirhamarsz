@@ -52,9 +52,9 @@ if (selected == "Perhitungan Kadar Unsur atau Senyawa Sampel") :
     with col3:
         berat_sampel = st.number_input("Berat Sampel (gr)")
         
-      if st.button ('Hitung') :
-        Perhitungan Kadar Unsur atau Senyawa Sampel = Berat_Molekul_Unsur_atau_Senyawa / Berat_Molekul_Endapan
-        st.success(f'Hasil Perhitungan Kadar Unsur atau Senyawa Sampel adalah  {faktor_gravimetri}')
+     if st.button ('Hitung') :
+        Perhitungan_Kadar_Unsur_atau_Senyawa_Sampel = Berat_Molekul_Unsur_atau_Senyawa / Berat_Molekul_Endapan
+        st.success(f'Hasil Perhitungan Kadar Unsur atau Senyawa Sampel adalah  {Perhitungan_Kadar_Unsur_atau_Senyawa_Sampel}')
         
 
     
