@@ -79,7 +79,7 @@ if (selected == "Perhitungan Kadar Air Sampel") :
 
     massa_sebelum = st.number_input('Masukkan massa bahan sebelum dioven (g) :', format='%.4f')
     massa_setelah = st.number_input('Masukkan massa bahan setelah dioven (g) :', format='%.4f')
-    massa_sampel = st.number_input('Masukkan massa sampel (g);',format='(%).4f')
+    massa_sampel = st.number_input('Masukkan massa sampel (g) ;',format='(%).4f')
 
     if st.button('Hitung') :
          kadar_air = (massa_sebelum - massa_setelah) / (massa_sampel* 100)
