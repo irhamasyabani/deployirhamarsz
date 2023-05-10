@@ -53,7 +53,7 @@ if (selected == "Perhitungan Kadar Unsur atau Senyawa Sampel") :
         berat_sampel = st.number_input("Berat Sampel (gr)")
         
     if st.button ('Hitung') :
-        Perhitungan_Kadar_Unsur_atau_Senyawa_Sampel = Berat_Molekul_Unsur_atau_Senyawa / Berat_Molekul_Endapan
+        Perhitungan_Kadar_Unsur_atau_Senyawa_Sampel = berat_endapan * faktor_gravimetri * 100%  / berat_sampel
         st.success(f'Hasil Perhitungan Kadar Unsur atau Senyawa Sampel adalah  {Perhitungan_Kadar_Unsur_atau_Senyawa_Sampel}')
         
 
@@ -89,8 +89,7 @@ if (selected == "Perhitungan Kadar Abu Sampel") :
     st.title ("Aplikasi Menghitung Kadar Abu Sampel")
     
     st.write("Perhitungan Kadar Abu Sampel")
-    st.write("(massa sebelum - massa setelah) / (massa sampel * 100)")
-    
+    st.write("(massa sebelum - massa setelah) / (massa sampel * 100)
 
     massa_sebelum = st.number_input('Masukkan massa bahan sebelum dibakar (g) :', format='%.4f')
     massa_setelah = st.number_input('Masukkan massa abu setelah dibakar (g) :', format='%.4f')
