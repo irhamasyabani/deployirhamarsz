@@ -67,7 +67,8 @@ if (selected == "Kalkulator Faktor Gravimetri") :
 
     if st.button ('Hitung') :
         faktor_gravimetri = Berat_Molekul_Unsur_atau_Senyawa / Berat_Molekul_Endapan
-        st.success(f'Hasil Faktor Gravimetri adalah {faktor_gravimetri}gram')
+        st.success(f'Hasil Faktor Gravimetri adalah {faktor_gravimetri}')
+        st.balloons()
         
 if (selected == "Perhitungan Kadar Air Sampel") :
     st.title("Perhitungan mencari Kadar Air Sampel")
@@ -77,11 +78,11 @@ if (selected == "Perhitungan Kadar Air Sampel") :
 
     massa_sebelum = st.number_input('Masukkan massa bahan sebelum dioven (g) :', format='%.4f')
     massa_setelah = st.number_input('Masukkan massa bahan setelah dioven (g) :', format='%.4f')
-    massa_sampel = st.number_input('Masukkan massa sampel (g);',format='%.4f')
+    massa_sampel = st.number_input('Masukkan massa sampel (g);',format='(%).4f')
 
     if st.button('Hitung') :
          kadar_air = (massa_sebelum - massa_setelah) / (massa_sampel* 100)
-         st.success(f'Hasil kadar air adalah {kadar_air}')
+         st.success(f'Hasil kadar air adalah {kadar_air}(%)')
          st.balloons()
             
 
@@ -97,6 +98,6 @@ if (selected == "Perhitungan Kadar Abu Sampel") :
                                      
     if st.button('Hitung') :
         kadar_abu = (massa_sebelum - massa_setelah) / (massa_sampel * 100)
-        st.success(f'Hasil kadar abu adalah {kadar_abu}')
+        st.success(f'Hasil kadar abu adalah {kadar_abu}(%)')
         
         st.balloons()
