@@ -35,26 +35,27 @@ if (selected == "Identitas Kelompok") :
     
 if (selected == "Perhitungan Kadar Unsur atau Senyawa Sampel") :
     st.title("Perhitungan Kadar Unsur atau Senyawa Sampel")
-    st.write("Kadar % = berat endapan (gr) x faktor gravimetri x 100 % / berat sampel (gr)")
+    st.write("Kadar % = berat endapan (g) x faktor gravimetri x 100 % / berat sampel (g)")
 
     # Membuat tiga kolom untuk input
     col1, col2, col3 = st.columns(3)
 
-    # Input berat endapan (gr)
+    # Input berat endapan (g)
     with col1:
-        berat_endapan = st.number_input("Berat Endapan (gr)")
+        berat_endapan = st.number_input("Berat Endapan (g)")
 
     # Input faktor gravimetri
     with col2:
         faktor_gravimetri = st.number_input("Faktor Gravimetri")
 
-    # Input berat sampel (gr)
+    # Input berat sampel (g)
     with col3:
-        berat_sampel = st.number_input("Berat Sampel (gr)")
+        berat_sampel = st.number_input("Berat Sampel (g)")
         
     if st.button ('Hitung') :
         Perhitungan_Kadar_Unsur_atau_Senyawa_Sampel = berat_endapan* faktor_gravimetri* 100 / berat_sampel
         st.success(f'Hasil Perhitungan Kadar Unsur atau Senyawa Sampel adalah  {Perhitungan_Kadar_Unsur_atau_Senyawa_Sampel}')
+        st.balloons()
         
 
     
