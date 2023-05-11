@@ -25,6 +25,7 @@ with st.sidebar :
 
     
 if (selected == "Identitas Kelompok") :
+    st.write('<style>h1{font-family: Arial, sans-serif;}</style>', unsafe_allow_html=True)
     st.title("Identitas Anggota Kelompok")
     
     st.write ('''Daftar Anggota \n
@@ -38,7 +39,11 @@ if (selected == "Identitas Kelompok") :
 if (selected == "Analisis Gravimetri") :
     st.title("Analisis Gravimetri")
     st.write("Analisis gravimetri adalah salah satu metode analisis kuantitatif dalam penetapan suatu zat kimia berdasarkan beratnya. Prinsip dasar analisis gravimetri yaitu unsur atau senyawa target diendapkan dengan suatu pereaksi pengendap. Beberapa macam jenis metode dalam analisa gravimetri, yaitu metode penguapan, pengendapan, elektrolisis.")
-             
+    st.write("Kadar air adalah kuantitas air yang terdapat pada suatu bahan atau zat, diukur dalam satuan persentase atau fraksi dari massa atau volume zat tersebut. Kadar air dapat mempengaruhi kualitas dan stabilitas bahan, seperti makanan, obat-obatan, bahan bangunan, dan produk-produk lainnya. Kadar air yang terlalu tinggi atau rendah dapat menyebabkan kerusakan atau deteriorasi pada bahan tersebut.")
+    st.write("Kadar abu dalam analisis kimia adalah jumlah total senyawa anorganik yang tersisa setelah bahan organik terbakar pada suhu yang tinggi. Kadar abu dapat dihitung dengan mengukur berat sampel dan mengurangi berat abu dari berat awal sampel. Kadar abu biasanya digunakan sebagai indikator untuk mengukur kebersihan dan kualitas bahan organik, seperti makanan atau bahan bakar biomassa. Tingkat abu yang tinggi dapat mengindikasikan kontaminasi atau kualitas rendah dari sampel tersebut.")
+    st.write("Faktor gravimetri adalah rasio antara massa substansi yang diendapkan dan jumlah zat di dalam sampel yang diukur. Faktor gravimetri digunakan dalam analisis gravimetri, sebuah metode analisis kimia di mana berat suatu zat dipakai untuk menentukan jumlah atau konsentrasi zat tersebut.")
+    st.write("Nilai kadar ini dapat dihitung dengan menggunakan berbagai metode analisis gravimetri seperti metode penimbangan langsung, metode perbandingan, dan metode pemisahan gravimetri")
+    
             
         
 if (selected == "Perhitungan Kadar Unsur atau Senyawa Sampel") :
