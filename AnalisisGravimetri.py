@@ -35,7 +35,6 @@ if (selected == "Identitas Kelompok") :
     
 if (selected == "Analisis Gravimetri") :
     st.title("Analisis Gravimetri")
-    st.write('<style>body { font-family: "Brush Script MT", sans-serif; }</style>', unsafe_allow_html=True)
     st.write("ANALISIS GRAVIMETRI adalah salah satu metode analisis kuantitatif dalam penetapan suatu zat kimia berdasarkan beratnya. Prinsip dasar analisis gravimetri yaitu unsur atau senyawa target diendapkan dengan suatu pereaksi pengendap. Beberapa macam jenis metode dalam analisa gravimetri, yaitu metode penguapan, pengendapan, elektrolisis.")
     st.write("KADAR AIR adalah kuantitas air yang terdapat pada suatu bahan atau zat, diukur dalam satuan persentase atau fraksi dari massa atau volume zat tersebut. Kadar air dapat mempengaruhi kualitas dan stabilitas bahan, seperti makanan, obat-obatan, bahan bangunan, dan produk-produk lainnya. Kadar air yang terlalu tinggi atau rendah dapat menyebabkan kerusakan atau deteriorasi pada bahan tersebut.")
     st.write("KADAR ABU dalam analisis kimia adalah jumlah total senyawa anorganik yang tersisa setelah bahan organik terbakar pada suhu yang tinggi. Kadar abu dapat dihitung dengan mengukur berat sampel dan mengurangi berat abu dari berat awal sampel. Kadar abu biasanya digunakan sebagai indikator untuk mengukur kebersihan dan kualitas bahan organik, seperti makanan atau bahan bakar biomassa. Tingkat abu yang tinggi dapat mengindikasikan kontaminasi atau kualitas rendah dari sampel tersebut.")
