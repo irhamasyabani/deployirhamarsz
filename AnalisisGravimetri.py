@@ -26,7 +26,6 @@ with st.sidebar :
     
 if (selected == "Identitas Kelompok") :
     st.title("Identitas Anggota Kelompok")
-    st.title("Daftar Anggota")
     st.write ("Diyana Iffah (2219065)")
     st.write ("Alma Lubna Kamilia (2219032)")
     st.write ("Lathifah Hasna (2219096)")
