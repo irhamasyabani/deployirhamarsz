@@ -26,12 +26,12 @@ with st.sidebar :
     
 if (selected == "Identitas Kelompok") :
     st.title("Identitas Anggota Kelompok")
-    st.write ('''Daftar Anggota'')
+    st.write (''Daftar Anggota'')
     st.write ('' Diyana Iffah (2219065)'')
     st.write (''Alma Lubna Kamilia (2219032)'')
     st.write (''Lathifah Hasna (2219096)'')
     st.write (''Luthfi Muhammad Fikri (2219101)'')
-    st.write (''Muh. Irham Asya'bani (2219110)'')
+    st.write (''Muh Irham Asya'bani (2219110)'')
     
 if (selected == "Analisis Gravimetri") :
     st.title("Analisis Gravimetri")
