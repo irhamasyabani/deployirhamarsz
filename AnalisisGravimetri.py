@@ -3,7 +3,16 @@ import streamlit as st
 import numpy as np
 
 from streamlit_option_menu import option_menu
-st.write('<style>body { font-family: "Brush Script MT", sans-serif; }</style>', unsafe_allow_html=True)
+streamlit_style = """
+			<style>
+			@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+			html, body, [class*="css"]  {
+			font-family: 'Roboto', sans-serif;
+			}
+			</style>
+			"""
+st.markdown(streamlit_style, unsafe_allow_html=True)
 
 #welcome
 with st.sidebar :
