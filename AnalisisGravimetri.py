@@ -26,7 +26,7 @@ with st.sidebar :
     
 if (selected == "Identitas Kelompok") :
     st.title("Identitas Anggota Kelompok")
-   streamlit_style = """
+streamlit_style = """
 		<style>
 		@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
