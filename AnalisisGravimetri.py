@@ -25,7 +25,7 @@ with st.sidebar :
 
     
 if (selected == "Identitas Kelompok") :
-    st.write('<style>h1{font-family: Comic Sans, sans-serif;}</style>', unsafe_allow_html=True)
+    st.title('<style>h1{font-family: Comic Sans, sans-serif;}</style>', unsafe_allow_html=True)
     st.title("Identitas Anggota Kelompok")
     
     st.write ('''Daftar Anggota \n
