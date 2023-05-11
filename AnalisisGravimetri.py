@@ -3,10 +3,11 @@ import streamlit as st
 import numpy as np
 
 from streamlit_option_menu import option_menu
-<style>
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+streamlit_style = """
+			<style>
+			@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
-html, body, [class*="css"]  {
+			html, body, [class*="css"]  {
 			font-family: 'Roboto', sans-serif;
 			}
 			</style>
