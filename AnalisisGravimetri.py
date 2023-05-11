@@ -3,6 +3,7 @@ import streamlit as st
 import numpy as np
 
 from streamlit_option_menu import option_menu
+ st.write('<style>body { font-family: "Brush Script MT", sans-serif; }</style>', unsafe_allow_html=True)
 
 #welcome
 with st.sidebar :
