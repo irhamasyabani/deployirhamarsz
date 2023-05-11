@@ -121,5 +121,5 @@ if (selected == "Perhitungan Kadar Abu Sampel") :
                                      
     if st.button('Hitung') :
         kadar_abu = (massa_sebelum - massa_setelah) / (massa_sampel * 100)
-        st.success(f'Hasil kadar abu adalah {kadar_abu}(%))
+        st.success(f'Hasil kadar abu adalah {kadar_abu}(%)')
         st.balloons()
