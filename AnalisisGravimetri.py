@@ -26,7 +26,15 @@ with st.sidebar :
     
 if (selected == "Identitas Kelompok") :
     st.title("Identitas Anggota Kelompok")
-    streamlit_style = """
+
+    st.write ('''Daftar Anggota \n
+    Alma Lubna Kamilia (2219032) \n
+    Diyana Iffah (2219065)\n
+    Lathifah Hasna (2219096)\n
+    Luthfi Muhammad Fikri (2219101)\n
+    Muh. Irham Asya'bani (2219110)
+    ''')
+        streamlit_style = """
 		<style>
 		@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
@@ -36,13 +44,6 @@ if (selected == "Identitas Kelompok") :
 		</style>
 		"""
     st.markdown(streamlit_style, unsafe_allow_html=True) 
-    st.write ('''Daftar Anggota \n
-    Alma Lubna Kamilia (2219032) \n
-    Diyana Iffah (2219065)\n
-    Lathifah Hasna (2219096)\n
-    Luthfi Muhammad Fikri (2219101)\n
-    Muh. Irham Asya'bani (2219110)
-    ''')
     
 if (selected == "Analisis Gravimetri") :
     st.title("Analisis Gravimetri")
