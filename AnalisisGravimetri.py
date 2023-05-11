@@ -123,4 +123,3 @@ if (selected == "Perhitungan Kadar Abu Sampel") :
         kadar_abu = (massa_sebelum - massa_setelah) / (massa_sampel * 100)
         st.success(f'Hasil kadar abu adalah {kadar_abu}%')
 	st.balloons()
-	
