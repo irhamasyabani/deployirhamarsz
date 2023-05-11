@@ -26,7 +26,7 @@ with st.sidebar :
     
 if (selected == "Identitas Kelompok") :
     st.title("Identitas Anggota Kelompok")
-    st.write('<style>body { font-family: "Roboto", sans-serif; }</style>', unsafe_allow_html=True)
+    st.write('<style>body { font-family: "Brush Script MT", sans-serif; }</style>', unsafe_allow_html=True)
     st.write ('''Daftar Anggota \n
     Alma Lubna Kamilia (2219032) \n
     Diyana Iffah (2219065)\n
