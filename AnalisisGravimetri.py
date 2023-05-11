@@ -36,14 +36,12 @@ with st.sidebar :
     
 if (selected == "Identitas Kelompok") :
     st.title("Identitas Anggota Kelompok")
-    st.write('<style>body { font-family: "Brush Script MT", sans-serif; }</style>', unsafe_allow_html=True)
-    st.write ('''Daftar Anggota \n
-    Alma Lubna Kamilia (2219032) \n
-    Diyana Iffah (2219065)\n
-    Lathifah Hasna (2219096)\n
-    Luthfi Muhammad Fikri (2219101)\n
-    Muh. Irham Asya'bani (2219110)
-    ''')
+    st.write ('''Daftar Anggota'')
+    st.write ('' Diyana Iffah (2219065)'')
+    st.write (''Alma Lubna Kamilia (2219032)'')
+    st.write (''Lathifah Hasna (2219096)'')
+    st.write (''Luthfi Muhammad Fikri (2219101)'')
+    st.write (''Muh. Irham Asya'bani (2219110)'')
     
 if (selected == "Analisis Gravimetri") :
     st.title("Analisis Gravimetri")
