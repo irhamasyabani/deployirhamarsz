@@ -1,12 +1,7 @@
 import streamlit as st
 
 import numpy as np
-[theme]
-primaryColor="#F63366"
-backgroundColor="#FFFFFF"
-secondaryBackgroundColor="#F0F2F6"
-textColor="#262730"
-font="sans serif"
+
 from streamlit_option_menu import option_menu
 streamlit_style = """
 			<style>
