@@ -34,7 +34,7 @@ if (selected == "Identitas Kelompok") :
     Luthfi Muhammad Fikri (2219101)\n
     Muh. Irham Asya'bani (2219110)
     ''')
-        streamlit_style = """
+    streamlit_style = """
 		<style>
 		@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
