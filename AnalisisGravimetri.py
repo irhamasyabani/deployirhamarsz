@@ -26,7 +26,7 @@ with st.sidebar :
     
 if (selected == "Identitas Kelompok") :
     st.title("Identitas Anggota Kelompok")
-streamlit_style = """
+    streamlit_style = """
 		<style>
 		@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
@@ -35,7 +35,7 @@ streamlit_style = """
 		}
 		</style>
 		"""
-st.markdown(streamlit_style, unsafe_allow_html=True) 
+    st.markdown(streamlit_style, unsafe_allow_html=True) 
     st.write ('''Daftar Anggota \n
     Alma Lubna Kamilia (2219032) \n
     Diyana Iffah (2219065)\n
