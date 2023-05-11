@@ -15,11 +15,14 @@ with st.sidebar :
     
     selected = option_menu("Aplikasi Analisis Kuantitatif Gravimetri",
     ["Identitas Kelompok",
+     "Analisis Gravimetri",
      "Perhitungan Kadar Unsur atau Senyawa Sampel",
      "Kalkulator Faktor Gravimetri",
      "Perhitungan Kadar Air Sampel",
      "Perhitungan Kadar Abu Sampel"],
     default_index=0)
+    
+
     
 if (selected == "Identitas Kelompok") :
     st.title("Identitas Anggota Kelompok")
@@ -32,7 +35,12 @@ if (selected == "Identitas Kelompok") :
     Muh. Irham Asya'bani (2219110)
     ''')
     
-    
+  if (selected == "Analisis Gravimetri") :
+    st.title("Analisis Gravimetri")
+    st.write("Analisis gravimetri adalah salah satu metode analisis kuantitatif dalam penetapan suatu zat kimia berdasarkan beratnya. Prinsip dasar analisis gravimetri yaitu unsur atau senyawa target diendapkan dengan suatu pereaksi pengendap. Beberapa macam jenis metode dalam analisa gravimetri, yaitu metode penguapan, pengendapan, elektrolisis.")
+             
+            
+        
 if (selected == "Perhitungan Kadar Unsur atau Senyawa Sampel") :
     st.title("Perhitungan Kadar Unsur atau Senyawa Sampel")
     st.write("Kadar % = berat endapan (g) x faktor gravimetri x 100 % / berat sampel (g)")
